@@ -173,7 +173,7 @@ padding: 2.25rem;
     @media only screen and (max-width: 430px){
         .container{
             display: block;
-            min-height: 600px;
+            min-height: 650px;
         }
     }
 /*#endregion da tela de LOGIN*/
@@ -241,7 +241,8 @@ padding: 2.25rem;
     @media only screen and (max-width: 400px){
         .ctn{
             display: block;
-            min-height: 960px;
+            min-height: 700px;
+            margin-top: 10%;
         }
     }
 /*#endregion da tela de CLASSIFICADOS*/
