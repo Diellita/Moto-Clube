@@ -245,6 +245,9 @@ padding: 2.25rem;
             display: block;
             margin-top: 10%;
         }
+        .classif{
+            min-height: 800px;
+        }
     }
 /*#endregion da tela de CLASSIFICADOS*/
 
