@@ -241,7 +241,7 @@ padding: 2.25rem;
     @media only screen and (max-width: 400px){
         .ctn{
             display: block;
-            min-height: 660px;
+            min-height: 960px;
         }
     }
 /*#endregion da tela de CLASSIFICADOS*/
