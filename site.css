@@ -184,19 +184,21 @@ padding: 2.25rem;
         background: url(fotos/d1.jpg) no-repeat center fixed;
         background-size:cover;
     }
+    .classif{
+        min-height: 600px;
+    }
     .ctn{
-        height: 100%;
+        min-height: 300px;
         width: 100%; 
         display: grid;
         justify-content: center;
-        margin-top: 5%;
         margin-bottom: 5px;
         margin-left: 2%;
         margin-right: 2%;
     }
     .table-responsive{
         width: 100%;
-        min-height: 380px;
+        min-height: 160px;
         align-items: center;
     }
     .tbl{
@@ -242,9 +244,6 @@ padding: 2.25rem;
         .ctn{
             display: block;
             margin-top: 10%;
-        }
-        .row{
-            min-height: 700px;
         }
     }
 /*#endregion da tela de CLASSIFICADOS*/
