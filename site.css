@@ -87,8 +87,9 @@ padding-top: 1%;    text-align: center;
     margin-top: 7%;
 }
 #CPF, #CNPJ{
-    padding: 50px;
+    padding: 20px;
     border-radius: 15px;
+    width: 180px;
 }
 label{
     color: white;
@@ -169,6 +170,12 @@ padding: 2.25rem;
     color: rgb(165, 165, 190)
     }
 
+    @media only screen and (max-width: 430px){
+        .container{
+            display: block;
+            min-height: 600px;
+        }
+    }
 /*#endregion da tela de LOGIN*/
 
 /*#region Região da tela CLASSIFICADOS*/
@@ -229,6 +236,13 @@ padding: 2.25rem;
       }
       .btn-success{
         margin-right: 5px;
+    }
+
+    @media only screen and (max-width: 400px){
+        .ctn{
+            display: block;
+            min-height: 560px;
+        }
     }
 /*#endregion da tela de CLASSIFICADOS*/
 
