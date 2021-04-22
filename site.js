@@ -84,5 +84,5 @@ documento.on("click", "#voltar", function redirecionaPorTipo2(){
 });
 
 function cadastrar(){
-    window.location.href = "http://127.0.0.1:5500/cadastro.html";
+    window.location.href = "https://diellita.github.io/Projeto_Unica3/cadastro.html";
 }
