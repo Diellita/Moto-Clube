@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seca Suvaco Moto Club</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="site.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </head>
+<body class="login">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="home.html">Seca Suvaco Moto Club</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+                <li class="nav-item active">
+                  <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Mais
+                  </a>
+                  <ul class="dropdown-menu bg-dark" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item text-white bg-dark" href="cadastro.html">Cadastro</a></li>
+                    <li><a class="dropdown-item text-white bg-dark" href="login.html">Login</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-white bg-dark" href="classificados.html">Classificados</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>      
+    </header>  
+<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+  <button class="btn btn-primary" id="cadastrar" onclick="cadastrar()">Cadastrar</button>
+    <div class="row">
+        <div class="container">
+            <div class="d-flex justify-content-center h-100">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="pagina">LOGIN</h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="classificados.html" method="get">
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="email" class="form-control" placeholder="Seu Email">                              
+                            </div>
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                </div>
+                                <input type="password" class="form-control" placeholder="Sua Senha">
+                            </div>
+                            <div class="col-12 botao">
+                                <button class="btn btn-primary" type="submit">ENVIAR</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-center links">
+                         <a class="frase" href="#">Esqueci usuário/Senha</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <footer>
+        <div class="rodape">
+         <p class="frase">© 2021- Dielle de Oliveira Ribeiro</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="site.js"></script>
+</body>
+</html>

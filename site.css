@@ -1,0 +1,235 @@
+/*#region Região da tela HOME*/
+
+html{
+    background-color: #1e2124;
+}
+.home{
+   background-color:#151416;
+}
+.pagina{
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-family: impact;
+}
+.titulo{
+    font-weight: bolder;
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.paragrafo{
+    color: rgb(201, 196, 196);
+    margin-top: 2%;
+    margin-right:10%;
+    margin-left: 5%;
+    text-align: justify;
+    text-indent: 1.5em;
+    font-size: 18px;
+
+}
+.container{
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    justify-content:center;
+    margin-top: 5%;
+    margin-bottom: 5px;
+    min-height: 500px;
+}
+.slide{
+    height: 600px;
+    width: 450px;
+    text-align: center;
+}
+.foto{
+    margin-top: 5%;
+}
+footer{
+    background-color: #343a40;
+    height: 50px;
+    margin-top: 5%;
+}
+.frase{
+    color: wheat;
+padding-top: 1%;    text-align: center;
+}
+@media only screen and (max-width: 992px){
+    .container{
+        display: inline;
+    }
+    .foto{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 5%;
+    }
+}
+/*#endregion da tela de Home*/
+
+/*#region Região da tela CADASTRO*/
+.backgroundImg{
+    background: url(fotos/r1.jpg) no-repeat center fixed;
+    background-size:cover;
+}
+#voltar{
+    margin-top: 0px;
+}
+#escolha{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.tipo{
+    display: inline-flex;
+    margin: 15px;
+    margin-top: 7%;
+}
+#CPF, #CNPJ{
+    padding: 50px;
+    border-radius: 15px;
+}
+label{
+    color: white;
+    font-size: 18px;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+.form-control{
+    background-color:  #445524 ;
+    color: white;
+}
+option{
+    color: black;
+}
+.form-check{
+    padding-top: 5%;
+}
+.form-check-label{
+    margin-top: -20px;
+}
+.form-check-label:hover{
+    color: rgb(82, 184, 23);
+    cursor: pointer;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+.btn-primary{
+    margin-top: 5%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #445524 ;
+    color:rgb(255, 255, 255) ;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: black ;
+    color:yellowgreen;
+}
+/*#endregion da tela de CADASTRO*/
+
+/*#region Região da tela LOGIN*/
+
+#cadastrar{
+    margin-top: 2%;
+    margin-left: 1%;
+}
+.login{
+background-image: url(fotos/hd1.jpg) ; 
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.card{
+height: 430px;
+margin-top: auto;
+margin-bottom: auto;
+width: 475px;
+background-color: rgba(0,0,0,0.4) !important;
+}
+.card-body{
+    padding: 2.50rem;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: gray ;
+border:0 !important;
+}
+
+.links a{
+color: white;
+padding: 2.25rem;
+}
+.links a:hover{
+    color: rgb(165, 165, 190)
+    }
+
+/*#endregion da tela de LOGIN*/
+
+/*#region Região da tela CLASSIFICADOS*/
+
+    .classificados{
+        background: url(fotos/d1.jpg) no-repeat center fixed;
+        background-size:cover;
+    }
+    .ctn{
+        height: 100%;
+        width: 100%; 
+        display: grid;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .table-responsive{
+        width: 100%;
+        min-height: 380px;
+        align-items: center;
+    }
+    .tbl{
+        max-width: 110px;
+        background-color:  white ;
+        color: black ;
+        font-weight: bold;
+        padding-left: 5px;
+    }
+    tr{
+        background-color:  #81b12a ; 
+        color: white;
+        text-align: center;
+    }
+    .th{
+        background-color:  #445524 ;
+        color: white;
+        padding: 20px;
+    }
+    tr:hover{
+        background-color: #b1cf78;
+        color: #445524;
+    }
+    th[scope="col"], #tabela{
+        background-color:  #445524 ;
+        color: white;
+        font-weight: bolder;
+        font-size: 17px;
+        padding:10px;
+    }
+
+      button[ data-acao="excluir"]{
+        background-color: rgb(212, 35, 35);
+        font-weight: bold;
+        border-radius: 10px;
+        margin: 5px;
+      }
+      .btn-success{
+        margin-right: 5px;
+    }
+/*#endregion da tela de CLASSIFICADOS*/
+
+
