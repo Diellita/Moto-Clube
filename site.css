@@ -49,7 +49,7 @@ html{
 footer{
     background-color: #343a40;
     height: 50px;
-    margin-top: 5%;
+    margin-top: 0px;
 }
 .frase{
     color: wheat;
@@ -66,6 +66,12 @@ padding-top: 1%;    text-align: center;
         padding-top: 5%;
     }
 }
+@media only screen and (max-width: 600px){
+    .col-12{
+       padding-left: 1px;
+       padding-right: 1px;
+    }
+}
 /*#endregion da tela de Home*/
 
 /*#region Região da tela CADASTRO*/
@@ -74,12 +80,13 @@ padding-top: 1%;    text-align: center;
     background-size:cover;
 }
 #voltar{
-    margin-top: 0px;
+    margin: 5px;
 }
 #escolha{
     display: block;
     justify-content: center;
     text-align: center;
+    min-height: 300px;
 }
 .tipo{
     display: inline-flex;
@@ -131,13 +138,21 @@ option{
     background-color: black ;
     color:yellowgreen;
 }
+
+@media only screen and (max-width: 400px){
+    #CPF, #CNPJ{
+        padding: 20px;
+        border-radius: 15px;
+        width: 120px;
+        font-size:25px;
+    }
+}
 /*#endregion da tela de CADASTRO*/
 
 /*#region Região da tela LOGIN*/
 
 #cadastrar{
-    margin-top: 2%;
-    margin-left: 1%;
+    margin: 5px;
 }
 .login{
 background-image: url(fotos/hd1.jpg) ; 
