@@ -84,5 +84,5 @@ documento.on("click", "#voltar", function redirecionaPorTipo2(){
 });
 
 function cadastrar(){
-    window.location.href = "https://diellita.github.io/Projeto_Unica3/cadastro.html";
+    window.location.href = "https://diellita.github.io/Moto-Clube/cadastro.html";
 }
